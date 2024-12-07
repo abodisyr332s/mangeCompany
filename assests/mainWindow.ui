@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>995</width>
+    <height>680</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QFrame" name="buttonsFrame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1001</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QPushButton" name="driversButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+
+text-align:center;
+qproperty-icon:url(&quot;assests/people.png&quot;);
+qproperty-iconSize: 30px;
+background-color:transparent;
+border:1px solid black;
+font: 16pt &quot;Arial&quot;;
+}
+
+
+QPushButton:hover {background-color:#c8c8c8;}
+
+</string>
+    </property>
+    <property name="text">
+     <string>السائقين</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="trucksButton">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>0</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+
+text-align:center;
+qproperty-icon:url(&quot;assests/truck.png&quot;);
+qproperty-iconSize: 30px;
+background-color:transparent;
+border:1px solid black;
+font: 16pt &quot;Arial&quot;;
+}
+
+
+QPushButton:hover {background-color:#c8c8c8;}
+
+</string>
+    </property>
+    <property name="text">
+     <string>الشاحنات</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="warehouseButton">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>0</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+
+text-align:center;
+qproperty-icon:url(&quot;assests/warehouse.png&quot;);
+qproperty-iconSize: 30px;
+background-color:transparent;
+border:1px solid black;
+font: 16pt &quot;Arial&quot;;
+}
+
+
+QPushButton:hover {background-color:#c8c8c8;}
+
+</string>
+    </property>
+    <property name="text">
+     <string>المستودع</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="noficationsButton">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>0</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+
+text-align:center;
+qproperty-icon:url(&quot;assests/nofications.png&quot;);
+qproperty-iconSize: 30px;
+background-color:transparent;
+border:1px solid black;
+font: 16pt &quot;Arial&quot;;
+}
+
+
+QPushButton:hover {background-color:#c8c8c8;}
+
+</string>
+    </property>
+    <property name="text">
+     <string>تنبيهات</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bigTrucksButton">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>0</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+
+text-align:center;
+qproperty-iconSize: 30px;
+background-color:transparent;
+border:1px solid black;
+font: 16pt &quot;Arial&quot;;
+}
+
+
+QPushButton:hover {background-color:#c8c8c8;}
+
+</string>
+    </property>
+    <property name="text">
+     <string>التيدرات</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="programmerButton">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>0</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+
+text-align:center;
+qproperty-icon:url(&quot;assests/programming.png&quot;);
+qproperty-iconSize: 30px;
+background-color:transparent;
+border:1px solid black;
+font: 16pt &quot;Arial&quot;;
+}
+
+
+QPushButton:hover {background-color:#c8c8c8;}
+
+</string>
+    </property>
+    <property name="text">
+     <string>برمجة وتطوير</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="oilButton">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>0</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+
+text-align:center;
+qproperty-iconSize: 30px;
+background-color:transparent;
+border:1px solid black;
+font: 16pt &quot;Arial&quot;;
+}
+
+
+QPushButton:hover {background-color:#c8c8c8;}
+
+</string>
+    </property>
+    <property name="text">
+     <string>مستودع الزيت</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QFrame" name="mainFrame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>39</y>
+     <width>1001</width>
+     <height>641</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:black</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>160</y>
+      <width>1001</width>
+      <height>391</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>MyLogo.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
